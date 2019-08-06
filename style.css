@@ -62,8 +62,12 @@ header {
     height: 100vh;
     background-size: 45%;
     color: #042259;
-    background-color: #f5c8cf;
+    /* background-color: #f5c8cf; */
     background-attachment: fixed;
+}
+
+.header-gradient {
+    background: radial-gradient(circle at bottom right, white, #f5c8cf 60%)
 }
 
 h1 {
@@ -86,8 +90,8 @@ nav {
 }
 
 nav li {
-    display: inline-block;
-    margin: 10px;
+    float: left;
+    margin: 15px;
 }
 
 nav a {
