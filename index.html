@@ -57,7 +57,6 @@
                 </li>
             </ul>
         </header>
-
     </div>
     
     <section class="appliances">
@@ -75,6 +74,7 @@
                 </li>
             </ul>
         </div>
+        
         <div class="wrapper coffee-appliance clearfix">
             <div class="coffee-photo">
                 <img src="Electric-Select-Assets/Electric-Select-Assets/square-photo.jpg" alt="moka top italian espresso maker">
@@ -92,6 +92,7 @@
             <div class="photo-right">
                 <img src="Electric-Select-Assets/Electric-Select-Assets/right-photo.jpg" alt="blender with a glass of green smoothie">
             </div>
+
             <div class="info-left">
                 <h2>Smoothies anyone?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam corporis cum nulla, praesentium quia aliquid
@@ -113,11 +114,9 @@
                 culpa?</p>
                 <a href="#" class="button">Read more</a>
             </div>
-            
         </div>
     </section>
 
-    
     <section class="bottom-icons">
         <div class="wrapper">
             <ul class="clearfix">
@@ -141,15 +140,16 @@
                 </li>
             </ul>
         </div>
-        
     </section>
+
     <section class="footer-info">
         <div class="wrapper clearfix">
             <div class="newsletter">
                 <h3>Stay updated</h3>
                 <p>Subscribe to our newsletter to stay updated.</p>
-                <form action="send-email.php" method="POST" class="sub-form clearfix" name="sub-form">
-                    <input type="email" name="email-address" placeholder="email address" required>
+                <form action="submit" method="POST" class="sub-form clearfix" name="sub-form">
+                    <label for="email-address" class="visuallyHidden">Email address</label>
+                    <input type="email" name="email-address" placeholder="email address" id="email-address" required>
                     <button class="sub-button">SUBSCRIBE</button>
                 </form>
             </div>
@@ -174,11 +174,9 @@
                 </li>
             </ul>
         </div>
-        
     </section>
     <footer>
         <p>Copyright © 2019 HackerYou</p>
     </footer>
-
 </body>
 </html>
